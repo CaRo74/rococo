@@ -560,7 +560,7 @@ li{
       flex-flow: column;
       & .profile-picture {
         margin: 0 auto;
-        width: 80%;
+        object-fit: contain;
       }
       & .profile-text {
         padding: 30px 0;
