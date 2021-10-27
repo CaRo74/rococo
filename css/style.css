@@ -695,7 +695,7 @@ li {
   }
   #profile {
     padding: 60px 0 30px 0;
-    max-width: 600px;
+    text-align: center;
   }
   #profile .profile-wrapper {
     display: -webkit-box;
@@ -709,6 +709,7 @@ li {
   #profile .profile-wrapper .profile-picture {
     margin: 0 auto;
     width: 80%;
+    height: 300px;
   }
   #profile .profile-wrapper .profile-text {
     padding: 30px 0;
