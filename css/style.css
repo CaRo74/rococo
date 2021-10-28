@@ -29,7 +29,7 @@ li {
 .wrapper {
   max-width: 1200px;
   margin: 0 auto;
-  padding-bottom: 150px;
+  padding-bottom: 80px;
 }
 
 .btn {
@@ -82,8 +82,7 @@ li {
 }
 
 .btn:active {
-  background-color: #eee2f1aa;
-  border: 1.5px solid #A64E6E;
+  background-color: #eee6edfc;
 }
 
 .sectitle {
@@ -431,7 +430,7 @@ li {
 }
 
 #photos {
-  padding: 100px 0 80px 0;
+  padding-top: 85px;
 }
 
 #photos .photo-item {
@@ -468,7 +467,8 @@ li {
 }
 
 #profile {
-  padding: 100px 5%;
+  padding: 85px 5% 0;
+  margin-top: 100px;
 }
 
 #profile .profile-wrapper {
@@ -522,7 +522,7 @@ li {
 }
 
 #Twitter {
-  padding: 100px 5%;
+  padding: 85px 5% 0;
 }
 
 #Twitter .Twitter-wrapper {
@@ -608,7 +608,7 @@ li {
 }
 
 .return-btn {
-  margin: 50px auto;
+  margin: 50px auto 0;
 }
 
 .return-top {
@@ -649,6 +649,10 @@ li {
   }
   .btn a {
     line-height: 50px;
+  }
+  .btn:active::before {
+    left: 0px;
+    top: 0px;
   }
   #header #nav .menu li {
     margin-bottom: 50px;
@@ -695,7 +699,7 @@ li {
   }
   #profile {
     padding: 60px 0 30px 0;
-    text-align: center;
+    margin-top: 20px;
   }
   #profile .profile-wrapper {
     display: -webkit-box;
@@ -707,12 +711,11 @@ li {
             flex-flow: column;
   }
   #profile .profile-wrapper .profile-picture {
-    margin: 0 auto;
-    width: 80%;
+    width: 100%;
     height: 300px;
   }
   #profile .profile-wrapper .profile-text {
-    padding: 30px 0;
+    width: 100%;
     line-height: 2rem;
   }
   #profile .profile-wrapper .profile-text .name {
